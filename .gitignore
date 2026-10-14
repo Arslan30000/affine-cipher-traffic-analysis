@@ -1,0 +1,9 @@
+# Keep generated or potentially sensitive capture output out of version control.
+__pycache__/
+*.py[cod]
+/data/captures.csv
+/results/*
+!/results/.gitignore
+/evidence/*.pcap
+/evidence/*.pcapng
+/evidence/captures/
